@@ -18,5 +18,6 @@ jobs:
         with:
           build: npm run build
           start: npm start
+          e2e: npm e2e
       - name: Jest run
         run: npm test
